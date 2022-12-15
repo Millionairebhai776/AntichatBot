@@ -18,8 +18,8 @@ def start(update: Update, context: CallbackContext):
     chat = update.effective_chat
     msg = update.effective_message
     keyb = []
-    keyb.append([InlineKeyboardButton(text="(★) Add me to your chat (★)", url=f"http://t.me/{context.bot.username}?startgroup=true")])
-    msg.reply_text(f"ʜᴇʏᴀ\nɪ'ᴍ ᴀɴᴛɪᴄʜᴀᴛᴜꜱᴇʀɴᴀᴍᴇʙᴏᴛ\nɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ", reply_markup=InlineKeyboardMarkup(keyb))
+    keyb.append([InlineKeyboardButton(text="⭕️Add me to your chat⭕️", url=f"http://t.me/{context.bot.username}?startgroup=true")])
+    msg.reply_text(f"ʜᴇʏᴀ\nɪ'ᴍ ᴀɴᴛɪᴄʜᴀᴛᴜꜱᴇʀɴᴀᴍᴇʙᴏᴛ\nɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴡʜɪᴄʜ ᴄᴏɴᴛᴀɪɴꜱ ᴘᴜʙʟɪᴄ ᴄʜᴀᴛ ᴜꜱᴇʀɴᴀᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ\n⚡𝐎𝐖𝐍𝐄𝐑⚡ - @FILMWORLDOFFICIA ", reply_markup=InlineKeyboardMarkup(keyb))
 
 def clean_blue_text_must_click(update: Update, context: CallbackContext):
     bot = context.bot
